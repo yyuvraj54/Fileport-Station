@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styling/style.css">
+    <title>Fileport Station</title>
+</head>
+<body>
+
+<section id="Top-view">
+   <div class="branding">
+      <h1>Fileport Station</h1>
+   </div>
+
+   
+
+  <div class="file-upload-div">
+      <input type="file" id="photo" onchange ="getFile(event)">
+      <button id="uploadfile" ><img src="icons/upload.png" alt="upload-file-icon">Upload file</button>
+  </div>
+
+  <div class="table-container">
+    <table class="table table-striped-columns">
+      <thead>
+        <tr>
+          <th scope="col">SNO.</th>
+          <th scope="col">File Name</th>
+          <th scope="col">Date</th>
+          <th scope="col">Size</th>
+          <th scope="col">Download</th>
+        </tr>
+      </thead>
+      <tbody id="newrow">
+       
+      
+        
+      </tbody>
+    </table>
+
+  </div>
+
+</section>
+
+
+<section id="Footer">
+<div class="footer-con">
+  <div class="about">
+    <div class="connect">
+      <p><h5><b><u>CONNECT WITH ME</u></b></h5></p>
+      <div class="connect-icons">
+        
+          <a href="https://www.instagram.com/yuvrajyadav9448/" target="_blank"><img src="icons/insta-icon.png" alt="insta-icon"></a>
+         <a href="https://github.com/yyuvraj54" target="_blank"> <img src="icons/git-icon.png" alt="git-icon"></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxwPsFJMjqWQVnJcFGLFbrbHQXQhNppWcbJfrlLKbthFzscbrDfmNSqdbXKHPTcxnNmMxF" target="_blank"><img src="icons/gmail-icon.png" alt="gmail-icon"></a>
+          <a href="https://www.linkedin.com/in/yuvraj-singh-yadav-aa9488140/" target="_blank"><img src="icons/linkedin-icon.png" alt="linked-in-icon"></a>
+         
+        
+      </div>
+      
+    </div>
+    <p><b><u><h5>About</h5></u></b> The main aim of this project is to provide a intermediate file exhange(Export/Import) through internet across diffrent devices.  </p>
+    <p><b><u><h5>Design and Developed By</u></b></h5><b> Yuvraj Singh Yadav</b></p>
+  </div>
+  <div class="profile">
+    <a href="https://yyuvraj54.github.io/Web-Resume/" target="_blank"><img class='roundimage' src="icons/profile.png" alt="profile-icon">KNOW MORE ABOUT ME</a>
+  </div>
+  <div class="endingstatus">
+    <p>| @ALL RIGHT RESERVED |</p>
+  </div>
+  
+</div>
+
+</section>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+<script  type="module" src="js/PageLoad.js"></script>
+<script src="./js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+
+
+</html>
